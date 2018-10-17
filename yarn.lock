@@ -82,37 +82,37 @@
   version "0.2.6"
   resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.6.tgz#3f26b9d1bf2d057dfe0f448fe4a2c372508e97f0"
 
-"@fortawesome/fontawesome-free@^5.2.0":
+"@fortawesome/fontawesome-free@5.4.1":
   version "5.4.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.4.1.tgz#6194786c1a705ab84253e06429834466670e3c3f"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.4.1.tgz#6194786c1a705ab84253e06429834466670e3c3f"
 
-"@fortawesome/fontawesome-svg-core@^1.2.2":
+"@fortawesome/fontawesome-svg-core@1.2.6":
   version "1.2.6"
-  resolved "https://npm.fontawesome.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.6.tgz#6314da68ff1018633a861ae9fe59e006c4f759a9"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.6.tgz#6314da68ff1018633a861ae9fe59e006c4f759a9"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.6"
 
-"@fortawesome/free-brands-svg-icons@^5.2.0":
+"@fortawesome/free-brands-svg-icons@5.4.1":
   version "5.4.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.4.1.tgz#7c68f7baff4764a8e38e62892372c4b85c70db79"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.4.1.tgz#7c68f7baff4764a8e38e62892372c4b85c70db79"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.6"
 
-"@fortawesome/free-regular-svg-icons@^5.2.0":
+"@fortawesome/free-regular-svg-icons@5.4.1":
   version "5.4.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.4.1.tgz#50dcda7e0382af9ae2508b2322e6f82d2a9fd43a"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.4.1.tgz#50dcda7e0382af9ae2508b2322e6f82d2a9fd43a"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.6"
 
-"@fortawesome/free-solid-svg-icons@^5.2.0":
+"@fortawesome/free-solid-svg-icons@5.4.1":
   version "5.4.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.4.1.tgz#9aa1a07176a16886aa176fc0c9d809ab1697fd47"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.4.1.tgz#9aa1a07176a16886aa176fc0c9d809ab1697fd47"
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.6"
 
-"@fortawesome/vue-fontawesome@^0.1.1":
+"@fortawesome/vue-fontawesome@0.1.1":
   version "0.1.1"
-  resolved "https://npm.fontawesome.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.1.tgz#f54cad4028213a011c6ecb10eaf2b99dbd4a8496"
+  resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.1.tgz#f54cad4028213a011c6ecb10eaf2b99dbd4a8496"
 
 "@videojs/http-streaming@1.2.5":
   version "1.2.5"
@@ -126,7 +126,7 @@
     url-toolkit "^2.1.3"
     video.js "^6.8.0 || ^7.0.0"
 
-"@vue/eslint-config-airbnb@^3.0.3":
+"@vue/eslint-config-airbnb@3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@vue/eslint-config-airbnb/-/eslint-config-airbnb-3.0.5.tgz#29c5e7bea854140703e2237696324c185fa537b8"
   dependencies:
@@ -145,7 +145,7 @@ accepts@~1.3.4, accepts@~1.3.5:
     mime-types "~2.1.18"
     negotiator "0.6.1"
 
-accounting-js@^1.1.1:
+accounting-js@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/accounting-js/-/accounting-js-1.1.1.tgz#7fe4b3f70c01ebe0b85c02c5f107f1393b880c9e"
   dependencies:
@@ -244,7 +244,7 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
-animate.css@^3.6.1:
+animate.css@3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.7.0.tgz#5de25d1ee5fba11ba6a1e2c4fa568f512eb7d4da"
 
@@ -453,7 +453,7 @@ aws4@^1.6.0, aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
 
-axios@^0.18:
+axios@0.18.0:
   version "0.18.0"
   resolved "http://registry.npmjs.org/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
   dependencies:
@@ -492,7 +492,7 @@ babel-core@^6.24.1, babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.7"
 
-babel-eslint@^8.2.3:
+babel-eslint@8.2.6:
   version "8.2.6"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.6.tgz#6270d0c73205628067c0f7ae1693a9e797acefd9"
   dependencies:
@@ -641,7 +641,7 @@ babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
   resolved "http://registry.npmjs.org/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
 
-babel-plugin-syntax-dynamic-import@^6.18.0:
+babel-plugin-syntax-dynamic-import@6.18.0:
   version "6.18.0"
   resolved "http://registry.npmjs.org/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-6.18.0.tgz#8d6a26229c83745a9982a441051572caa179b1da"
 
@@ -1188,15 +1188,15 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
-bulma-extensions@^2.2.1:
+bulma-extensions@2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-2.2.2.tgz#d46f11d1242a3fdc60a983afaea0b5e6c137362d"
 
-bulma@^0.7.1:
+bulma@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.2.tgz#8e944377b74c7926558830d38d8e19eaf49f5fb6"
 
-bulmaswatch@^0.7.0:
+bulmaswatch@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/bulmaswatch/-/bulmaswatch-0.7.1.tgz#9766d08d001071fbce8a66a4677559185b37afef"
 
@@ -1330,9 +1330,9 @@ charenc@~0.0.1:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
 
-chart.js@^2.7.2:
+chart.js@2.7.2:
   version "2.7.2"
-  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.7.2.tgz#3c9fde4dc5b95608211bdefeda7e5d33dffa5714"
+  resolved "http://registry.npmjs.org/chart.js/-/chart.js-2.7.2.tgz#3c9fde4dc5b95608211bdefeda7e5d33dffa5714"
   dependencies:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
@@ -1350,7 +1350,7 @@ chartjs-color@^2.1.0:
     chartjs-color-string "^0.5.0"
     color-convert "^0.5.3"
 
-chartjs-plugin-datalabels@^0.3.0:
+chartjs-plugin-datalabels@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/chartjs-plugin-datalabels/-/chartjs-plugin-datalabels-0.3.0.tgz#f739a9a200a1cffb23206855bda5056c2ad6fca9"
 
@@ -1712,7 +1712,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-env@^5.1.6:
+cross-env@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.0.tgz#6ecd4c015d5773e614039ee529076669b9d126f2"
   dependencies:
@@ -1768,9 +1768,9 @@ css-color-names@0.0.4:
   version "0.0.4"
   resolved "http://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
-css-element-queries@^1.0.2:
+css-element-queries@1.0.2:
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/css-element-queries/-/css-element-queries-1.0.2.tgz#a32edfee4a5023688ef4d45f402077306d51d44c"
+  resolved "http://registry.npmjs.org/css-element-queries/-/css-element-queries-1.0.2.tgz#a32edfee4a5023688ef4d45f402077306d51d44c"
 
 css-loader@^0.28.9:
   version "0.28.11"
@@ -2071,7 +2071,7 @@ dotenv@^4.0.0:
   version "4.0.0"
   resolved "http://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
 
-driver.js@^0.7.1:
+driver.js@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/driver.js/-/driver.js-0.7.1.tgz#3ca48a6503ca1723fa16d9a4f0e93698322c94c5"
 
@@ -2316,7 +2316,7 @@ eslint-plugin-import@^2.11.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
-eslint-plugin-vue@^4.5.0:
+eslint-plugin-vue@4.7.1:
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-4.7.1.tgz#c829b9fc62582c1897b5a0b94afd44ecca511e63"
   dependencies:
@@ -2344,7 +2344,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.19.1:
+eslint@4.19.1:
   version "4.19.1"
   resolved "http://registry.npmjs.org/eslint/-/eslint-4.19.1.tgz#32d1d653e1d90408854bfb296f076ec7e186a300"
   dependencies:
@@ -2618,7 +2618,7 @@ fastparse@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
 
-favico.js@^0.3.10:
+favico.js@0.3.10:
   version "0.3.10"
   resolved "https://registry.yarnpkg.com/favico.js/-/favico.js-0.3.10.tgz#80586e27a117f24a8d51c18a99bdc714d4339301"
 
@@ -2659,7 +2659,7 @@ file-loader@^0.11.2:
   dependencies:
     loader-utils "^1.0.2"
 
-file-saver@^1.3.8:
+file-saver@1.3.8:
   version "1.3.8"
   resolved "http://registry.npmjs.org/file-saver/-/file-saver-1.3.8.tgz#e68a30c7cb044e2fb362b428469feb291c2e09d8"
 
@@ -2723,7 +2723,7 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-flag-icon-css@^3.0.0:
+flag-icon-css@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/flag-icon-css/-/flag-icon-css-3.2.0.tgz#a9898b92078505ce5249fe8bba071518d6ae7880"
 
@@ -2736,7 +2736,7 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flatpickr@^4.5.0:
+flatpickr@4.5.2:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.5.2.tgz#47c8ad472a096e5fb7e74b809b0703535383f20d"
 
@@ -3112,7 +3112,7 @@ he@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
 
-highlight.js@^9.12.0:
+highlight.js@9.13.0:
   version "9.13.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.0.tgz#ee96d5c5f4c456e440f2dbdb2752211dff56f671"
 
@@ -3377,7 +3377,7 @@ interpret@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
 
-intro.js@^2.9.3:
+intro.js@2.9.3:
   version "2.9.3"
   resolved "https://registry.yarnpkg.com/intro.js/-/intro.js-2.9.3.tgz#001d9a7bca66d8f4d2d0253c9b3345e9ae4320c3"
 
@@ -3803,11 +3803,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-laravel-echo@^1.4.0:
+laravel-echo@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/laravel-echo/-/laravel-echo-1.4.0.tgz#19520b142871f6c641bbdc1ece0b7b12a3a8381b"
 
-laravel-mix@^2.1.11:
+laravel-mix@2.1.14:
   version "2.1.14"
   resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-2.1.14.tgz#5c3c778b888e21120aa9d8900c318411da2ec911"
   dependencies:
@@ -4013,7 +4013,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@~4.17.10:
+lodash@4.17.11, lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@~4.17.10:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -4645,11 +4645,11 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-opencollective-postinstall@^2.0.0:
+opencollective-postinstall@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.0.tgz#5fe062f2706bb84150f7fb1af9f1277e46ec1388"
 
-opencollective@^1.0.3:
+opencollective@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/opencollective/-/opencollective-1.0.3.tgz#aee6372bc28144583690c3ca8daecfc120dd0ef1"
   dependencies:
@@ -4924,7 +4924,7 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
 
-popper.js@^1.0.2, popper.js@^1.12.9, popper.js@^1.14.3:
+popper.js@1.14.4, popper.js@^1.0.2, popper.js@^1.12.9:
   version "1.14.4"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.4.tgz#8eec1d8ff02a5a3a152dd43414a15c7b79fd69b6"
 
@@ -5321,7 +5321,7 @@ punycode@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
-pusher-js@^4.2.2:
+pusher-js@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/pusher-js/-/pusher-js-4.3.1.tgz#ca0ecc09cd78ffb836f65031b9ab69244509d091"
   dependencies:
@@ -5365,7 +5365,7 @@ quill-delta@^3.6.2:
     extend "^3.0.2"
     fast-diff "1.1.2"
 
-quill@^1.3.4, quill@^1.3.6:
+quill@1.3.6, quill@^1.3.4:
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/quill/-/quill-1.3.6.tgz#99f4de1fee85925a0d7d4163b6d8328f23317a4d"
   dependencies:
@@ -5401,7 +5401,7 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
-raven-js@^3.26.2:
+raven-js@3.27.0:
   version "3.27.0"
   resolved "https://registry.yarnpkg.com/raven-js/-/raven-js-3.27.0.tgz#9f47c03e17933ce756e189f3669d49c441c1ba6e"
 
@@ -6343,7 +6343,7 @@ text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
-textarea-caret@^3.1.0:
+textarea-caret@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/textarea-caret/-/textarea-caret-3.1.0.tgz#5d5a35bb035fd06b2ff0e25d5359e97f2655087f"
 
@@ -6412,7 +6412,7 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-tooltip.js@^1.2.0:
+tooltip.js@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/tooltip.js/-/tooltip.js-1.3.0.tgz#c56115ce9e4b549edda0b306a3e439a17262181d"
   dependencies:
@@ -6652,11 +6652,11 @@ uuid@^3.0.1, uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
-v-click-outside@^1.0.5:
+v-click-outside@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/v-click-outside/-/v-click-outside-1.0.5.tgz#3eb590394e062fa9a4256cbe678600557f7c87d4"
 
-v-tooltip@^2.0.0-rc.32:
+v-tooltip@2.0.0-rc.33:
   version "2.0.0-rc.33"
   resolved "https://registry.yarnpkg.com/v-tooltip/-/v-tooltip-2.0.0-rc.33.tgz#78f7d8e9c34265622be65ba9dc78c67f1dc02b73"
   dependencies:
@@ -6687,6 +6687,19 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+video.js@7.2.3, "video.js@^6 || ^7", "video.js@^6.8.0 || ^7.0.0":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/video.js/-/video.js-7.2.3.tgz#26dffee2abcc89e40cfdb5497392edbd424099f2"
+  dependencies:
+    "@videojs/http-streaming" "1.2.5"
+    babel-runtime "^6.9.2"
+    global "4.3.2"
+    safe-json-parse "4.0.0"
+    tsml "1.0.1"
+    videojs-font "3.0.0"
+    videojs-vtt.js "0.14.1"
+    xhr "2.4.0"
+
 "video.js@^5.17.0 || ^6.2.0", "video.js@^5.19.1 || ^6.2.0", video.js@^6.6.0:
   version "6.12.1"
   resolved "https://registry.yarnpkg.com/video.js/-/video.js-6.12.1.tgz#872e57a8cc538669a9476348406fa62e5678a110"
@@ -6698,19 +6711,6 @@ verror@1.10.0:
     videojs-font "2.1.0"
     videojs-ie8 "1.1.2"
     videojs-vtt.js "0.12.6"
-    xhr "2.4.0"
-
-"video.js@^6 || ^7", "video.js@^6.8.0 || ^7.0.0", video.js@^7.0.3:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/video.js/-/video.js-7.2.3.tgz#26dffee2abcc89e40cfdb5497392edbd424099f2"
-  dependencies:
-    "@videojs/http-streaming" "1.2.5"
-    babel-runtime "^6.9.2"
-    global "4.3.2"
-    safe-json-parse "4.0.0"
-    tsml "1.0.1"
-    videojs-font "3.0.0"
-    videojs-vtt.js "0.14.1"
     xhr "2.4.0"
 
 videojs-contrib-hls@^5.12.2:
@@ -6816,7 +6816,7 @@ vue-loader@^13.7.1:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-quill-editor@^3.0.6:
+vue-quill-editor@3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/vue-quill-editor/-/vue-quill-editor-3.0.6.tgz#1f85646211d68a31a80a72cb7f45bb2f119bc8fb"
   dependencies:
@@ -6827,7 +6827,7 @@ vue-resize@^0.4.3:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/vue-resize/-/vue-resize-0.4.4.tgz#dee9b8dd1b189e7e3f6ec47f86c60694a241bb17"
 
-vue-router@^3.0.1:
+vue-router@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.1.tgz#d9b05ad9c7420ba0f626d6500d693e60092cc1e9"
 
@@ -6849,7 +6849,7 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue-video-player@^5.0.2:
+vue-video-player@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/vue-video-player/-/vue-video-player-5.0.2.tgz#34a42239ff304efc7698da20a4165051d766c1e6"
   dependencies:
@@ -6859,17 +6859,17 @@ vue-video-player@^5.0.2:
     videojs-flash "^2.1.0"
     videojs-hotkeys "^0.2.20"
 
-vue@^2.5.16:
+vue@2.5.17:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
 
-vuedraggable@^2.16.0:
+vuedraggable@2.16.0:
   version "2.16.0"
   resolved "https://registry.yarnpkg.com/vuedraggable/-/vuedraggable-2.16.0.tgz#52127081a2adb3de5fabd214d404ff3eee63575a"
   dependencies:
     sortablejs "^1.7.0"
 
-vuex@^3.0.0:
+vuex@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
 
@@ -7169,6 +7169,6 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-zxcvbn@^4.4.2:
+zxcvbn@4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/zxcvbn/-/zxcvbn-4.4.2.tgz#28ec17cf09743edcab056ddd8b1b06262cc73c30"
