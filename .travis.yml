@@ -1,36 +1,60 @@
-script:
-  - phpunit
-
-after_success:
-  - chmod +x ./.deploy.sh; ./.deploy.sh
+sudo: required
+dist: trusty
+services:
+  - docker
 
 language: php
 
 php:
   - 7.2
 
+## Cache composer and vendor libraries
+cache:
+  directories:
+    - vendor
+    - $HOME/.composer/cache
+
+matrix:
+    fast_finish: true
+    include:
+        #
+        # Define versions of MySQL and MariaDB to test against.
+        # Define versions of MySQL and MariaDB to test against.
+        - php: 7.2
+          env: DB=mysql:5.7
+        #
+        # Define versions of MySQL and MariaDB to test against.
+        # mysql 8.0
+        - php: nightly
+          env: DB=mysql:8.0
+        # ...
+        # mariadb 10.3
+        - php: nightly
+          env: DB=mariadb:10.3
+
+
 before_script:
-  - cp .env.testing .env
+  - chmod +x .travis/install-and-init-db.sh && .travis/install-and-init-db.sh
+  - cp .env.travis .env
   - composer self-update
-  - composer install --no-interaction
+  - composer install --prefer-source --no-interaction --dev
   - php artisan key:generate
   - php artisan migrate
+  - composer update --prefer-dist
+  - npm install
+  - npm run dev
+
+script:
+  #- phpunit --coverage-clover coverage.xml
+  - phpunit
+
+after_script:
+  # upload coverage.xml file to Coveralls to analyze it
+  # minimal required coverage is set to 80+ %
+  # - wget https://github.com/satooshi/php-coveralls/releases/download/v2.1.0/coveralls.phar
+  # - php coveralls.phar --verbose
 
 
-before_install:
-  - mysql -e 'create database enso;'
+notifications:
+email: false
 
-services:
-  - mysql
-
-addons:
-  apt:
-    sources:
-      - mysql-5.7-trusty
-    packages:
-      - mysql-server
-      - mysql-client
-
-dist: trusty
-
-sudo: required
