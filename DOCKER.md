@@ -6,12 +6,12 @@ Development environment requirements :
 
 Setting up your development environment on your local machine :
 ```
-$ git clone https://github.com/modularsoftware/genealogy.git
-$ cd genealogy
+$ git clone https://github.com/modularsoftware/estate-agent.git
+$ cd estate-agent
 $ cp .env.docker .env
 $ docker-compose build
-$ docker-compose run --rm --no-deps genealogy-server composer install
-$ docker-compose run --rm --no-deps genealogy-server php artisan key:generate
+$ docker-compose run --rm --no-deps agent-server composer install
+$ docker-compose run --rm --no-deps agent-server php artisan key:generate
 $ docker run --rm -it -v $(pwd):/app -w /app node npm install
 $ docker-compose up -d
 ```
@@ -24,7 +24,7 @@ Now you can access the application via [http://localhost](http://localhost).
 You need to run the migrations with the seeds :
 
 ```
-$ docker-compose run --rm genealogy-server php artisan migrate --seed
+$ docker-compose run --rm agent-server php artisan migrate --seed
 ```
 
 This will create a new user that you can use to sign in :
