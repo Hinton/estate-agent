@@ -1196,9 +1196,9 @@ bulma@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.2.tgz#8e944377b74c7926558830d38d8e19eaf49f5fb6"
 
-bulmaswatch@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/bulmaswatch/-/bulmaswatch-0.7.1.tgz#9766d08d001071fbce8a66a4677559185b37afef"
+bulmaswatch@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/bulmaswatch/-/bulmaswatch-0.7.2.tgz#99b05844123dd9dca2cb1f271b54c8bc0c49e421"
 
 bytes@3.0.0:
   version "3.0.0"
